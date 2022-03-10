@@ -1,0 +1,1 @@
+# prosperna-triangular-number
