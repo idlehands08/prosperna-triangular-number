@@ -4,9 +4,9 @@ const submitButton = document.getElementById('submit')
 submitButton.addEventListener('click', returnResult);
 
 
-// Solution
+
 function getTriangularNumber(n) {
-  let triangularNumber= 0;
+  let triangularNumber= 0; 
   let iteration = 0;
 
   while(true) {
@@ -37,4 +37,5 @@ function returnResult() {
   console.log(getTriangularNumber(userInput.value))
   resultText.innerHTML = getTriangularNumber(userInput.value)
 }
+
 
